@@ -1,0 +1,23 @@
+{
+  "name": "weather-info-system",
+  "version": "1.0.0",
+  "description": "A weather information system showing temperature, humidity, wind speed and feels like",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "build": "echo 'Build successful' && npm install",
+    "test": "jest --coverage",
+    "lint": "eslint src/"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.0.3",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "supertest": "^6.3.0"
+  }
+}
