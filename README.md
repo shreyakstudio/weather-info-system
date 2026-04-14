@@ -23,13 +23,12 @@ weather details instantly.
 - Render — for cloud deployment
 
 ## Project Structure
-weather-info-system/
-|- src/          # Frontend files
-|- server/       # Backend server
-|- tests/        # Test files
-|- .github/      # CI/CD workflow
-|- Dockerfile
-|- package.json
+src/            → Frontend files (HTML, CSS, JS)
+server/         → Backend Node.js server
+tests/          → Jest test files
+.github/        → GitHub Actions CI/CD workflow
+Dockerfile      → Container configuration
+package.json    → Project dependencies
 
 ## How the Pipeline Works
 Whenever I push code to the main branch, GitHub Actions automatically
