@@ -24,12 +24,12 @@ weather details instantly.
 
 ## Project Structure
 weather-info-system/
-|-src/          # Frontend files
-|-server/       # Backend server
-|- tests/        # Test files
-|- .github/      # CI/CD workflow
-|- Dockerfile
-|- package.json
+├── src/          # Frontend files
+├── server/       # Backend server
+├── tests/        # Test files
+├── .github/      # CI/CD workflow
+├── Dockerfile
+└── package.json
 
 ## How the Pipeline Works
 Whenever I push code to the main branch, GitHub Actions automatically
